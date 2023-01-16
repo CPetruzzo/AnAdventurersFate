@@ -5,9 +5,10 @@
 }
 
 #ban2{
-  background-color: #487346;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Cg %3E%3Cpolygon fill='%234c8e43' points='100 57.1 64 93.1 71.5 100.6 100 72.1'/%3E%3Cpolygon fill='%236aac5f' points='100 57.1 100 72.1 128.6 100.6 136.1 93.1'/%3E%3Cpolygon fill='%234c8e43' points='100 163.2 100 178.2 170.7 107.5 170.8 92.4'/%3E%3Cpolygon fill='%236aac5f' points='100 163.2 29.2 92.5 29.2 107.5 100 178.2'/%3E%3Cpath fill='%2389CC7C' d='M100 21.8L29.2 92.5l70.7 70.7l70.7-70.7L100 21.8z M100 127.9L64.6 92.5L100 57.1l35.4 35.4L100 127.9z'/%3E%3Cpolygon fill='%23768c3a' points='0 157.1 0 172.1 28.6 200.6 36.1 193.1'/%3E%3Cpolygon fill='%2396ac58' points='70.7 200 70.8 192.4 63.2 200'/%3E%3Cpolygon fill='%23B6CC76' points='27.8 200 63.2 200 70.7 192.5 0 121.8 0 157.2 35.3 192.5'/%3E%3Cpolygon fill='%2396ac58' points='200 157.1 164 193.1 171.5 200.6 200 172.1'/%3E%3Cpolygon fill='%23768c3a' points='136.7 200 129.2 192.5 129.2 200'/%3E%3Cpolygon fill='%23B6CC76' points='172.1 200 164.6 192.5 200 157.1 200 157.2 200 121.8 200 121.8 129.2 192.5 136.7 200'/%3E%3Cpolygon fill='%23768c3a' points='129.2 0 129.2 7.5 200 78.2 200 63.2 136.7 0'/%3E%3Cpolygon fill='%23B6CC76' points='200 27.8 200 27.9 172.1 0 136.7 0 200 63.2 200 63.2'/%3E%3Cpolygon fill='%2396ac58' points='63.2 0 0 63.2 0 78.2 70.7 7.5 70.7 0'/%3E%3Cpolygon fill='%23B6CC76' points='0 63.2 63.2 0 27.8 0 0 27.8'/%3E%3C/g%3E%3C/svg%3E");
-}
+  background-color: #65BEFF;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23000' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%2365BEFF' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%2364b1f2' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%2362a5e5' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%236198d8' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%235f8ccb' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%235c80be' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%235a74b0' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%235769a3' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%23535e95' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%234f5388' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%234a487b' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23453d6d' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%23403360' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%233a2954' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%23341f47' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%232e163b' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%23270c2f' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23210024' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;}
 
 #ban1{
   background-color: #330000;
@@ -127,6 +128,12 @@ background-size: cover;
       .featurette-heading {
         margin-top: 7rem;
       }
+      .row.featurette > .col-md-5 > form {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 7rem;
+      
+      }
     }
     
     .bd-placeholder-img {
@@ -142,4 +149,48 @@ background-size: cover;
       .bd-placeholder-img-lg {
         font-size: 3.5rem;
       }
+      
     }
+
+    .row.featurette > .col-md-5 > form {
+      display: block;
+      justify-content: center;
+      width:41vh;
+      /* margin: auto; */
+      /* margin-top: 40px; */
+    } 
+
+    .row.featurette > .col-md-5 > form input, textarea {      
+      border-radius: 10px;
+      min-width: 300px;
+      width: 100%;
+    }
+
+    .row.featurette > .col-md-5 > form textarea {      
+      border-radius: 10px;
+      min-width: 300px;
+      min-height: 80px;
+      width: 100%;
+    }
+
+    .row.featurette > .col-md-5 > form button {      
+      max-width: 340px;
+      background-color: #65BEFF;
+      border: 10px solid #65BEFF;
+      border-radius: 10px;
+      min-width: 300px;
+      width: 100%;
+    }
+
+    .row.featurette > .col-md-5 > form button:hover {      
+      max-width: 340px;
+      background-color:teal;
+      border: 10px solid teal;
+    }
+
+    .row.featurette > .col-md-5 > form button:active {      
+      max-width: 340px;
+      background-color:teal;
+      border: 10px solid teal;
+    }
+
