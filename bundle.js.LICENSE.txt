@@ -5,6 +5,14 @@ object-assign
 */
 
 /*!
+ * @pixi/app - v6.3.0
+ * Compiled Wed, 23 Mar 2022 18:58:56 UTC
+ *
+ * @pixi/app is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
  * @pixi/constants - v6.3.0
  * Compiled Wed, 23 Mar 2022 18:58:56 UTC
  *
@@ -45,10 +53,10 @@ object-assign
  */
 
 /*!
- * @pixi/loaders - v6.3.0
+ * @pixi/math - v6.3.0
  * Compiled Wed, 23 Mar 2022 18:58:56 UTC
  *
- * @pixi/loaders is licensed under the MIT License.
+ * @pixi/math is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
  */
 
@@ -93,14 +101,6 @@ object-assign
  */
 
 /*!
- * @pixi/runner - v6.3.0
- * Compiled Wed, 23 Mar 2022 18:58:56 UTC
- *
- * @pixi/runner is licensed under the MIT License.
- * http://www.opensource.org/licenses/mit-license
- */
-
-/*!
  * @pixi/settings - v6.3.0
  * Compiled Wed, 23 Mar 2022 18:58:56 UTC
  *
@@ -109,10 +109,27 @@ object-assign
  */
 
 /*!
+ * @pixi/sound - v4.2.0
+ * https://github.com/pixijs/pixi-sound
+ * Compiled Wed, 05 Jan 2022 14:56:00 UTC
+ *
+ * @pixi/sound is licensed under the MIT license.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
  * @pixi/ticker - v6.3.0
  * Compiled Wed, 23 Mar 2022 18:58:56 UTC
  *
  * @pixi/ticker is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/utils - v6.3.0
+ * Compiled Wed, 23 Mar 2022 18:58:56 UTC
+ *
+ * @pixi/utils is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
  */
 
